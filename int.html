@@ -13,7 +13,7 @@
             //Create a preload function
             function preload(){
                 soundFormats("mp3");
-                boing = loadSound("sound_library.mp3");
+                boing = loadSound("boing.mp3");
             }
 
             function setup(){
@@ -22,7 +22,7 @@
 
             function draw(){
                 //when someone presses the space bar
-                if(keyIsDown(32)) {
+                if(keyIsDown(32)){
                     //play the sound
                     boing.play();
                 }
